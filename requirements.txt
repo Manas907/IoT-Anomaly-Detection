@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+scikit-learn
+plotly
+joblib
+requests
+paramiko
+boto3
+Pillow

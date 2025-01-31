@@ -42,6 +42,14 @@ The system displays the following information:
 
 - **Language Support**:
     - Allows users to switch between English, Japanese, and Kannada for the interface.
+ 
+      ![image](https://github.com/user-attachments/assets/4fcfe0c9-1fdb-4023-bef0-313a2c0399f6)
+
+      ![image](https://github.com/user-attachments/assets/85106fc4-809b-4f2f-984d-b4878c676b15)
+
+      ![image](https://github.com/user-attachments/assets/91cb4c13-b262-4b53-9496-7599295ab451)
+
+      ![image](https://github.com/user-attachments/assets/999eb8b2-c02e-4dee-9995-9e211e9e9a9d)
 
 ## Installation
 
@@ -88,6 +96,3 @@ Once the application is running, the user will be able to:
 
 Feel free to fork the repository and submit pull requests. You can contribute by fixing bugs, adding new features, or improving the documentation.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

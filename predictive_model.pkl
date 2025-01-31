@@ -1,0 +1,25 @@
+import joblib
+from sklearn.ensemble import IsolationForest
+import pandas as pd
+import numpy as np
+
+# Example synthetic data (Replace with your real IoT sensor data)
+data = {
+    'Voltage': [220, 225, 240, 230, 210, 215, 220, 250],
+    'Power': [15, 15.5, 16, 15.2, 14.8, 15.1, 15.4, 15.3],
+    'Temperature': [150, 152, 160, 155, 145, 148, 150, 160]
+}
+
+df = pd.DataFrame(data)
+
+# Prepare features (X) for training the anomaly detection model
+X = df[['Voltage', 'Power', 'Temperature']]
+
+# Train an Isolation Forest model for anomaly detection
+model = IsolationForest(contamination=0.1)  # 10% contamination (anomalies)
+model.fit(X)
+
+# Save the trained model
+joblib.dump(model, 'predictive_model.pkl')
+
+print("Model trained and saved as predictive_model.pkl")
